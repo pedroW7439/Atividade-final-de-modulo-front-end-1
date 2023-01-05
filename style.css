@@ -1,0 +1,111 @@
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Conteúdo de navegação */
+
+.bloco-navegacao {
+    background-color: deepskyblue;
+    width: 250px;
+    height: 100vh;
+    display: inline;
+    float: left;
+}
+.imagem-perfil {
+    height: auto;
+    width: 100px;
+    position: fixed;
+    bottom: 50vh;
+    left: 75px;
+    border-radius: 120px;
+    border: 4px dashed;
+}
+.imagem-perfil:hover {
+    border: 4px dashed white;
+    transition: 1.5s;
+}
+.menu-navegacao {
+    text-align: center;
+    top: 53vh;
+    left: 56px;
+    position: fixed;
+}
+.menu-navegacao > ul > li {
+    padding: 5px;
+}
+.menu-navegacao > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+}
+.menu-navegacao > ul > li > a:hover {
+    text-decoration: solid underline;
+}
+
+/* Sobre */
+
+.conteudo-principal {
+    position: fixed;
+    top: 50%;
+    left: 275px;
+    transform: translate(0, -50%);
+}
+.conteudo-principal > h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.conteudo-principal > h1 > em {
+    color: deepskyblue;
+}
+.conteudo-principal > h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.conteudo-principal > h2 > a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+.texto-sobre {
+    padding-bottom: 5px;
+}
+.conteudo-principal > ul > li {
+    display: inline;
+}
+.logo {
+    height: 50px;
+    width: auto;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+/* Conhecimentos */
+
+.lista-de-conhecimentos {
+    position: fixed;
+    top: 50%;
+    left: 275px;
+    transform: translate(0, -50%);
+}
+.lista-de-conhecimentos > ol {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+.lista-de-conhecimentos > ol > li {
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+/* Objetivos */
+
+.lista-de-objetivos {
+    position: fixed;
+    top: 50%;
+    left: 297px;
+    transform: translate(0, -50%);
+}
+.lista-de-objetivos > ul > li {
+    padding-bottom: 15px;
+    font-size: 25px;
+    list-style: disc;
+}
