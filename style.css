@@ -29,16 +29,16 @@
     left: 56px;
     position: fixed;
 }
-.menu-navegacao > ul > li {
+.menu-navegacao li {
     padding: 5px;
 }
-.menu-navegacao > ul > li > a {
+.menu-navegacao a {
     text-decoration: none;
     color: white;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-transform: uppercase;
 }
-.menu-navegacao > ul > li > a:hover {
+.menu-navegacao a:hover {
     text-decoration: solid underline;
 }
 
@@ -50,26 +50,28 @@
     left: 275px;
     transform: translate(0, -50%);
 }
-.conteudo-principal > h1 {
+.conteudo-principal h1 {
     font-size: 50px;
     font-weight: bolder;
     margin-bottom: 15px;
 }
-.conteudo-principal > h1 > em {
+.conteudo-principal em {
     color: deepskyblue;
 }
-.conteudo-principal > h2 {
+.conteudo-principal h2 {
     font-size: 20px;
     margin-bottom: 15px;
 }
-.conteudo-principal > h2 > a {
+.conteudo-principal a {
     text-decoration: none;
     color: deepskyblue;
 }
 .texto-sobre {
     padding-bottom: 5px;
+    padding-right: 5px;
+    font-size: 17px;
 }
-.conteudo-principal > ul > li {
+.conteudo-principal li {
     display: inline;
 }
 .logo {
@@ -87,11 +89,11 @@
     left: 275px;
     transform: translate(0, -50%);
 }
-.lista-de-conhecimentos > ol {
+.lista-de-conhecimentos ol {
     list-style-type: upper-alpha;
     list-style-position: inside;
 }
-.lista-de-conhecimentos > ol > li {
+.lista-de-conhecimentos li {
     padding-bottom: 5px;
     font-size: 25px;
 }
@@ -104,7 +106,7 @@
     left: 297px;
     transform: translate(0, -50%);
 }
-.lista-de-objetivos > ul > li {
+.lista-de-objetivos li {
     padding-bottom: 15px;
     font-size: 25px;
     list-style: disc;
